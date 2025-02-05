@@ -23,7 +23,7 @@ class KittiConverter:
     def __init__(self,
                  lyft_dataroot: str = 'E:/3d-object-detection-for-autonomous-vehicles',
                  table_folder: str = 'train_data',
-                 nusc_kitti_dir: str = 'D:/lyft/kitti_format/training/',
+                 nusc_kitti_dir: str = 'D:/lyft/kitti_format/',
                  lidar_name: str = 'LIDAR_TOP',
                  get_all_detections = False,
                  parallel_n_jobs = 4,
